@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo "$(print_colored_parameter "HOSTNAME" "${colors[$background_name]}" "${colors[$font_color_name]}") = $(print_colored_parameter "$HOSTNAME" "${colors[$background_value]}" "${colors[$font_color_value]}")"
+echo "$(print_colored_parameter "TIMEZONE" "${colors[$background_name]}" "${colors[$font_color_name]}") = $(print_colored_parameter "$TIMEZONE" "${colors[$background_value]}" "${colors[$font_color_value]}")"
+echo "$(print_colored_parameter "USER" "${colors[$background_name]}" "${colors[$font_color_name]}") = $(print_colored_parameter "$USER" "${colors[$background_value]}" "${colors[$font_color_value]}")"
+echo "$(print_colored_parameter "OS" "${colors[$background_name]}" "${colors[$font_color_name]}") = $(print_colored_parameter "$OS" "${colors[$background_value]}" "${colors[$font_color_value]}")"
+echo "$(print_colored_parameter "DATE" "${colors[$background_name]}" "${colors[$font_color_name]}") = $(print_colored_parameter "$DATE" "${colors[$background_value]}" "${colors[$font_color_value]}")"
+echo "$(print_colored_parameter "UPTIME" "${colors[$background_name]}" "${colors[$font_color_name]}") = $(print_colored_parameter "$UPTIME" "${colors[$background_value]}" "${colors[$font_color_value]}")"
+echo "$(print_colored_parameter "UPTIME_SEC" "${colors[$background_name]}" "${colors[$font_color_name]}") = $(print_colored_parameter "$UPTIME_SEC" "${colors[$background_value]}" "${colors[$font_color_value]}")"
+echo "$(print_colored_parameter "IP" "${colors[$background_name]}" "${colors[$font_color_name]}") = $(print_colored_parameter "$IP" "${colors[$background_value]}" "${colors[$font_color_value]}")"
+echo "$(print_colored_parameter "MASK" "${colors[$background_name]}" "${colors[$font_color_name]}") = $(print_colored_parameter "$MASK" "${colors[$background_value]}" "${colors[$font_color_value]}")"
+echo "$(print_colored_parameter "GATEWAY" "${colors[$background_name]}" "${colors[$font_color_name]}") = $(print_colored_parameter "$GATEWAY" "${colors[$background_value]}" "${colors[$font_color_value]}")"
+echo "$(print_colored_parameter "RAM_TOTAL" "${colors[$background_name]}" "${colors[$font_color_name]}") = $(print_colored_parameter "$RAM_TOTAL" "${colors[$background_value]}" "${colors[$font_color_value]}")"
+echo "$(print_colored_parameter "RAM_USED" "${colors[$background_name]}" "${colors[$font_color_name]}") = $(print_colored_parameter "$RAM_USED" "${colors[$background_value]}" "${colors[$font_color_value]}")"
+echo "$(print_colored_parameter "RAM_FREE" "${colors[$background_name]}" "${colors[$font_color_name]}") = $(print_colored_parameter "$RAM_FREE" "${colors[$background_value]}" "${colors[$font_color_value]}")"
+echo "$(print_colored_parameter "SPACE_ROOT" "${colors[$background_name]}" "${colors[$font_color_name]}") = $(print_colored_parameter "$SPACE_ROOT" "${colors[$background_value]}" "${colors[$font_color_value]}")"
+echo "$(print_colored_parameter "SPACE_ROOT_USED" "${colors[$background_name]}" "${colors[$font_color_name]}") = $(print_colored_parameter "$SPACE_ROOT_USED" "${colors[$background_value]}" "${colors[$font_color_value]}")"
+echo "$(print_colored_parameter "SPACE_ROOT_FREE" "${colors[$background_name]}" "${colors[$font_color_name]}") = $(print_colored_parameter "$SPACE_ROOT_FREE" "${colors[$background_value]}" "${colors[$font_color_value]}")"
